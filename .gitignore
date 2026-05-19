@@ -1,0 +1,14 @@
+node_modules
+.DS_Store
+dist
+.gemini
+history.md
+plan_checklist.md
+
+# Ignore all subfolders and files in outputs, but keep the outputs directory itself
+outputs/*
+!outputs/.gitkeep
+
+# Ignore all files in public, but keep the public directory itself
+public/*
+!public/.gitkeep
